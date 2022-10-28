@@ -112,13 +112,18 @@ body {
     justify-content: space-between;
     margin: 0;
 }
-.pro-fotball {
+.pro-fotball{
     color: #39930d;
     font-size:24px;
     margin: 0;
     padding: 25px 0 15px 0;
     line-height: 7px;
 }
+
+.pro-fotball p{
+    line-height: 7px;
+}
+
 .menu {
     color: #fff;
     width: 100%;
@@ -145,6 +150,10 @@ body {
     padding: 22px 0 0 20px;
     margin: 0;
 }
+
+.link:hover {
+    color: #c21e1e;
+}
 .footer-text {
     background-color: #39930d;
     color: #fff;
@@ -157,6 +166,11 @@ body {
     color: #343434;
     padding: 0 0 10px 0;
 }
+
+.main-text p{
+    line-height: 21px;
+}
+
 .link {
     color: #39930d;
 }
