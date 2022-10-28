@@ -28,8 +28,8 @@ body {
 }
 
 
-.logo img{
-    padding: 0 20px;
+.logo{
+    padding-top: 25px;
 }
 
 .logo p,
@@ -39,12 +39,8 @@ body {
     text-decoration: none;
 }
 
-.logo p {
-    padding-top: 25px;
-}
-
-.logo img {
-    padding-top: 25px;
+.logo b{
+    padding: 0 10px 0 0;
 }
 
 .logo {
@@ -110,14 +106,13 @@ body {
 .main {
     display:flex;
     justify-content: space-between;
-    margin: 0;
-    padding: 25px 0;
+    padding-top: 30px;
 }
 .pro-fotball{
     color: #39930d;
     font-size:24px;
     margin: 0;
-    line-height: 7px;
+    line-height: 1em;
 }
 
 .pro-fotball p{
@@ -130,7 +125,6 @@ body {
     width: 100%;
     max-width: 300px;
     line-height: 1.5em;
-    padding-top: 25px;
     margin: 0;
 }
 .partner {
@@ -171,7 +165,7 @@ body {
 }
 
 .main-text p{
-    line-height: 21px;
+    line-height: 1.5em;
 }
 
 .link {
