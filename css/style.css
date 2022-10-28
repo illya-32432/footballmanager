@@ -124,12 +124,14 @@ body {
     line-height: 7px;
 }
 
+
 .menu {
     color: #fff;
     width: 100%;
     max-width: 300px;
     line-height: 1.5em;
     padding-top: 25px;
+    margin: 0;
 }
 .partner {
     background-color: #39930d;
@@ -147,8 +149,9 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     list-style: none;
-    padding: 22px 0 0 20px;
-    margin: 0;
+    padding-left: 20px;
+    line-height: 2em;
+    
 }
 
 .link:hover {
@@ -173,4 +176,5 @@ body {
 
 .link {
     color: #39930d;
+
 }
