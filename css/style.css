@@ -23,11 +23,6 @@ body {
     float: left;
 }
 
-.logo b:hover {
-    color: #ff00c8;
-}
-
-
 .logo{
     padding-top: 25px;
 }
@@ -40,7 +35,7 @@ body {
 }
 
 .logo b{
-    padding: 0 10px 0 0;
+    padding: 0 35px 0 0;
 }
 
 .logo {
@@ -96,7 +91,7 @@ body {
 }
 
 .phone-link:hover {
-    color: #ff00c8;
+    color: #9c1515;
 }
 .hz {
     color: #5a5a5a;
