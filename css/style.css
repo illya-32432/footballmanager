@@ -183,6 +183,7 @@ body {
     }
     .ball{
         padding-left: 34rem;
+        display: block;
     }
     .contacts{
         padding-top: 0;
@@ -199,6 +200,7 @@ body {
 
     .contacts{
         text-align: right;
+        padding-top: 25rem;
     }
 
     .logo{
@@ -218,5 +220,11 @@ body {
     .menu{
         height: 41rem;
         max-width: 300rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    html{
+        font-size: 2px;
     }
 }
