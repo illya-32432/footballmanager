@@ -154,7 +154,7 @@ body {
     background-color: #39930d;
     color: #fff;
     padding: 10rem;
-    margin: 0 -14rem;
+    margin: 0 -15rem;
     font-size: 14rem;
 }
 .main-text {
@@ -171,10 +171,25 @@ body {
 
 .link {
     color: #39930d;
-
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 425px) {
+    .logo{
+        display: flex;
+    }
+
+    .header{
+        text-align: left;
+    }
+    .ball{
+        padding-left: 34rem;
+    }
+    .contacts{
+        padding-top: 0;
+    }
+}
+
+@media screen and (min-width: 550px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -191,7 +206,7 @@ body {
     }
 
     .ball{
-        padding-left: 14rem;
+        padding-left: 34rem;
     }
 }
 
