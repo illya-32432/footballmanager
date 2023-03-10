@@ -194,3 +194,14 @@ body {
         padding-left: 14rem;
     }
 }
+
+@media screen and (min-width: 660px){
+    .main{
+        display: flex;  
+    }
+
+    .menu{
+        height: 41rem;
+        max-width: 300rem;
+    }
+}
