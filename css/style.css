@@ -1,93 +1,94 @@
+html{
+    font-size: 1px;
+}
+
 body {
     background-color: #8dc63f;
     font-family: Arial, sans-serif;
     margin: 0;
     cursor: url(../img/cursor.webp) auto;
 }
+
 .wrapper {
     background-color: #fff;
     margin: 0 auto;
     width: 100%;
-    max-width: 960px;
-    padding: 0 15px;
+    max-width: 960rem;
+    padding: 0 15rem;
     box-sizing: border-box;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     margin: 0;
-}
-.logo,
-.logo p,
-.logo img {
-    float: left;
+    text-align: center;
 }
 
+
 .logo{
-    padding-top: 25px;
+    padding-top: 25rem;
 }
 
 .logo p,
 .contacts a {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
     text-decoration: none;
 }
 
 .logo b{
-    padding: 0 35px 0 0;
+    padding: 0 35rem0 0;
 }
 
 .logo {
-    padding-bottom: 26px;
-    display: flex;
+    padding-bottom: 12rem;
+    display: block;
     align-items: center;
 }
 
 .logo p,
 .contacts p {
     margin: 0;
+    padding-bottom: 10rem;
 }
 
 .logo b {
     display: block;
-    font-size: 44px;
+    font-size: 44rem;
     color: #39930d;
 }
 .logo i {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 .manager {
     color: #39930d;
-    font-size: 44px;
+    font-size: 44rem;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 5rem;
 }
 .official-site {
     color: #5a5a5a;
-    font-size: 14px;
+    font-size: 14rem;
     margin: 0;
-    padding-top: 11px;
+    padding-top: 11rem;
 }
 .football {
     color: #39930d;
-    font-size: 22px;
+    font-size: 22rem;
     margin: 0;
-    padding-top: 25px;
+    padding-top: 25rem;
 }
 .contacts {
-    text-align: right;
     text-decoration: none;
     margin: 0;
-    padding-top: 26px;
+    padding-top: 26rem;
 }
 .phone-link {
-    font-size: 22px;
+    font-size: 22rem;
     color: #39930d;
     text-decoration: none;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 10rem;
 }
 
 .phone-link:hover {
@@ -95,50 +96,53 @@ body {
 }
 .hz {
     color: #5a5a5a;
-    font-size: 14px;
+    font-size: 14rem;
     margin: 0;
 }
 .main {
-    display:flex;
+    display: block;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 30rem;
 }
 .pro-fotball{
     color: #39930d;
-    font-size:24px;
+    font-size:24rem;
     margin: 0;
     line-height: 1em;
 }
 
 .pro-fotball p{
-    line-height: 7px;
+    line-height: 7rem;
 }
 
 
 .menu {
     color: #fff;
     width: 100%;
-    max-width: 300px;
     line-height: 1.5em;
     margin: 0;
+    background-color: #abd670;
+    margin-bottom: 21rem;
 }
 .partner {
     background-color: #39930d;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 18rem;
+    padding: 20rem 20rem;
     margin: 0;
 }
 .picture {
-    margin: 0px 16px 20px 0px;
     width: 100%;
-    margin: 0;
+    height: 200rem;
+    object-fit: cover;
+    object-position: 75%;
+    vertical-align: bottom;
 }
 .url {
     color: #39930d;
-    font-size: 14px;
+    font-size: 14rem;
     text-transform: uppercase;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 20rem;
     line-height: 2em;
     
 }
@@ -149,21 +153,44 @@ body {
 .footer-text {
     background-color: #39930d;
     color: #fff;
-    padding: 10px;
-    margin: 0 -15px;
+    padding: 10rem;
+    margin: 0 -14rem;
+    font-size: 14rem;
 }
 .main-text {
     width: 100%;
-    max-width: 600px;
+    max-width: 600rem;
     color: #343434;
-    padding: 0 0 10px 0;
+    padding: 0 0 10rem 0;
 }
 
 .main-text p{
     line-height: 1.5em;
+    font-size: 14rem;
 }
 
 .link {
     color: #39930d;
 
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin: 0;
+    }
+
+    .contacts{
+        text-align: right;
+    }
+
+    .logo{
+        display: flex;
+    }
+
+    .ball{
+        padding-left: 14rem;
+    }
 }
