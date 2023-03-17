@@ -91,6 +91,10 @@ body {
     padding-bottom: 10rem;
 }
 
+.pb{
+    padding-bottom: 10rem;
+}
+
 .phone-link:hover {
     color: #9c1515;
 }
@@ -121,7 +125,7 @@ body {
     width: 100%;
     line-height: 1.5em;
     margin: 0;
-    background-color: #abd670;
+    background-color: #f1feff;
     margin-bottom: 21rem;
 }
 .partner {
@@ -153,7 +157,7 @@ body {
 .footer-text {
     background-color: #39930d;
     color: #fff;
-    padding: 10rem;
+    padding: 10rem 17rem;
     margin: 0 -15rem;
     font-size: 14rem;
 }
@@ -176,6 +180,9 @@ body {
 @media screen and (min-width: 425px) {
     .logo{
         display: flex;
+        justify-content: center;
+        text-align: start;
+        
     }
 
     .header{
@@ -187,10 +194,11 @@ body {
     }
     .contacts{
         padding-top: 0;
+        text-align: center;
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 620px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -219,7 +227,8 @@ body {
 
     .menu{
         height: 41rem;
-        max-width: 300rem;
+        max-width: 285rem;
+        margin-left: 15rem;
     }
 }
 
@@ -227,4 +236,9 @@ body {
     html{
         font-size: 2px;
     }
+    
+    .ball{
+        height: 100rem;
+    }
+    
 }
